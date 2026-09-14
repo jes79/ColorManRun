@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1702205116564058107}
   - component: {fileID: 7556284357352723430}
+  - component: {fileID: 7384170151210613879}
   m_Layer: 0
   m_Name: Pattern12
   m_TagString: Untagged
@@ -54,6 +55,19 @@ MonoBehaviour:
   isRandomSpeed: 1
   minSpeed: 50
   maxSpeed: 200
+--- !u!114 &7384170151210613879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3433303682435452740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9fc86b9388cf3449ab369d796a821f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatternController
+  isColorControl: 0
 --- !u!1001 &2331992236140710683
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 182470558380763512}
+  - component: {fileID: 7285899875807959555}
   m_Layer: 0
   m_Name: Pattern06
   m_TagString: Untagged
@@ -36,6 +37,19 @@ Transform:
   - {fileID: 556107885214007408}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7285899875807959555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5987190456579649282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f9fc86b9388cf3449ab369d796a821f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PatternController
+  isColorControl: 1
 --- !u!1001 &894357881379681513
 PrefabInstance:
   m_ObjectHideFlags: 0
